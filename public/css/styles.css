@@ -1,0 +1,279 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0;
+    
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 10px;
+  }
+
+header {
+    background-color:#EAC926;
+    text-align: center;
+}
+
+form{
+    padding-left: 40%;
+    
+}
+
+
+
+
+.imgmain{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 15%;
+}
+
+
+
+.liebre{
+    font-size: 10%;
+}
+.mainheader{
+    padding-top: 30px;
+}
+.cuerpotexto {
+    font-size: 12px;
+}
+
+.titulares {
+    font-size: 24px;
+    text-align: left;
+    color:#666;
+}
+
+.descripcionmain{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    font-size:10px;
+    position: relative;
+    }
+#img{
+    
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 25px;
+        height: 25px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        right: 15px;
+        top: -18px;
+        color:#39b54a;
+        position: absolute;
+       
+       
+}
+
+.precio {
+    color:#666;
+    font-size: 18px;
+}
+
+.descuento {
+    color:green;
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+}
+
+#imgfooter{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.descripcion{
+    color: #666;
+    font-size: 16px;
+}
+
+.producto{
+    color:#666;
+}
+
+.titularesfooter{
+    margin-top: 0%;
+}
+
+.descripcionfooter{
+    margin-top: 0%;
+}
+.navbar ul, .loginbar ul{
+    list-style-type: none;
+}
+main {
+    background-color: #ebebeb;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.imgmain {
+    border: 10px;
+    background-color: white;
+    margin:auto;
+    width: 100%;
+    border-spacing: 60px;
+    
+}
+
+#img {
+    color: green;
+    font-size: 16px;
+    display: block;
+    font-size: 16px;
+    
+   
+}
+
+.descripcionmain {
+    border-top: 1px solid #ebebeb;
+    
+}
+
+@media (max-width : 768px){
+
+    .liebre{
+        width: 90%;
+    }
+    .producto{
+        display: none;
+        
+    }
+    .navbar {
+        display: none;
+    }
+    .loginbar {
+        display: none;
+    }
+
+}
+
+@media (min-width : 769px) and (max-width : 1300px){
+    .imgmain{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 15px;
+    }
+    #hamburguesa{
+        display: none;
+    }
+   .menu {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       margin-top: 10px;
+       margin-right: 5%;
+   }
+   .menu ul{
+       display: flex;
+       
+   }
+   .menu li{
+       margin: 0 15px;
+   }
+   .navbar{
+    display: flex;
+   }
+   .loginbar{
+       display: flex;
+       
+   }
+
+   .mainheader{
+       display: flex;
+        justify-content: space-between;
+        align-items:center;
+       
+   }
+   .liebre{
+    width: 15%;
+    margin: 0;
+   }
+
+   .seccion{
+       display: flex;
+       justify-content: space-between;
+       
+   }
+   
+}
+
+.cuerpotexto{
+    margin-right: 5%;
+}
+
+.liebre {
+    margin-left: 5%;
+}
+
+
+@media (min-width : 1301px){
+    .imgmain{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 15px;
+    }
+    #hamburguesa{
+        display: none;
+    }
+   .menu {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       margin-top: 10px;
+       margin-right: 5%;
+   }
+   .menu ul{
+       display: flex;
+       
+   }
+   .menu li{
+       margin: 0 15px;
+   }
+   .navbar{
+    display: flex;
+   }
+   .loginbar{
+       display: flex;
+       
+   }
+
+   .mainheader{
+       display: flex;
+        justify-content: space-between;
+        align-items:center;
+       
+   }
+   .liebre{
+    width: 15%;
+    margin: 0;
+   }
+
+   .seccion{
+       flex-flow: row nowrap;
+       display: flex;
+    
+   }
+   
+}
+
+.cuerpotexto{
+    margin-right: 5%;
+}
+
+.liebre {
+    margin-left: 5%;
+}
